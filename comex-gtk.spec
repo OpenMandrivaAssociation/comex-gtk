@@ -1,6 +1,6 @@
 Summary:   GTK user interface for comex project
 Name:      comex-gtk
-Version:   0.1.5.2
+Version:   0.1.6.0
 Release:   %mkrel 1
 License:   GPLv2
 #ExcludeArch: ppc64
@@ -14,14 +14,14 @@ BuildArch: noarch
 
 BuildRequires: mono
 BuildRequires: log4net-devel
-BuildRequires: comex-base-devel >= 0.1.7
+BuildRequires: comex-base-devel >= 0.1.8.4
 BuildRequires: gtk-sharp2-devel >= 2.8.3
 BuildRequires: glade-sharp2 >= 2.8.3
 BuildRequires: pkgconfig
 
 Requires: mono
 Requires: log4net
-Requires: comex-base >= 0.1.7
+Requires: comex-base >= 0.1.8.4
 Requires: gtk-sharp2 >= 2.8.3
 Requires: glade-sharp2 >= 2.8.3
 Requires: glib-sharp2 >= 2.8.3
@@ -59,3 +59,9 @@ rm -rf %{buildroot}
 
 
 
+%changelog
+* Thu Sep 29 2011 Armando Basile <hmandevteam@gmail.com> 0.1.6.0-1mdv2012.0
+- release 0.1.6.0
+
+* Thu Sep 01 2011 Armando Basile <hmandevteam@gmail.com> 0.1.5.2-1mdv2012.0
+- release 0.1.5.2
