@@ -58,10 +58,3 @@ rm -rf %{buildroot}
 %{_datadir}/applications/%{name}.desktop
 
 
-
-%changelog
-* Thu Sep 29 2011 Armando Basile <hmandevteam@gmail.com> 0.1.6.0-1mdv2012.0
-- release 0.1.6.0
-
-* Thu Sep 01 2011 Armando Basile <hmandevteam@gmail.com> 0.1.5.2-1mdv2012.0
-- release 0.1.5.2
