@@ -57,3 +57,20 @@ rm -rf %{buildroot}
 %{_datadir}/pixmaps/%{name}.png
 %{_datadir}/applications/%{name}.desktop
 
+
+
+%changelog
+* Sun Oct 30 2011 Armando Basile <hman@mandriva.org> 0.1.6.2-1
++ Revision: 707880
+- release 0.1.6.2
+
+* Tue Oct 04 2011 Armando Basile <hman@mandriva.org> 0.1.6.0-1
++ Revision: 702988
+- removed changelog section from spec file
+- added tarball
+- release 0.1.6.0
+
+* Mon Sep 26 2011 Armando Basile <hman@mandriva.org> 0.1.5.2-1
++ Revision: 701318
+- import comex-gtk
+
