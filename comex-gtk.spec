@@ -1,7 +1,7 @@
 Summary:   GTK user interface for comex project
 Name:      comex-gtk
 Version:   0.1.6.2
-Release:   %mkrel 1
+Release:   2
 License:   GPLv2
 #ExcludeArch: ppc64
 Group:     Office
